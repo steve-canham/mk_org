@@ -1,0 +1,20 @@
+
+[data]
+src_file_name=""
+data_version=""
+data_date=""
+
+
+[folders]
+data_folder_path="/home/steve/Data/MDR source data/ROR/data"
+output_folder_path="/home/steve/Data/MDR source data/ROR/outputs"
+log_folder_path="/home/steve/Data/MDR/MDR_Logs/ror"
+
+
+[database]
+db_host="localhost"
+db_user="postgres"
+db_password="WinterIsComing!"
+db_port="5432"
+db_name="ror"
+
