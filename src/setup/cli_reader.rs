@@ -311,6 +311,7 @@ mod tests {
         assert_eq!(res.data_version, "");
     }
   
+
     #[test]
     fn check_cli_with_a_flag() {
         let target = "dummy target";
@@ -354,6 +355,7 @@ mod tests {
         assert_eq!(res.data_version, "");
     }
 
+    
     #[test]
     fn check_cli_with_k_and_p_flag() {
         let target = "dummy target";
@@ -374,6 +376,7 @@ mod tests {
         assert_eq!(res.data_date, "");
         assert_eq!(res.data_version, "");
     }
+
 
     #[test]
     fn check_cli_with_c_and_t_flag() {
